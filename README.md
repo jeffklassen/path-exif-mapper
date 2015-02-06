@@ -2,7 +2,11 @@
 
 This simple wrapper for the ExifImage class allows a user to pass a path to a '.jpg' file and a callback that receives both the image path and the extracted Exif Data.
 
-## Sample usage:
+## Install
+
+`npm i path-exif-mapper`
+
+## Sample Usage
 
 ```javascript
 var mapper = require('./lib/exif/PathExifMap.js');
