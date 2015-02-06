@@ -9,9 +9,9 @@ This simple wrapper for the ExifImage class allows a user to pass a path to a '.
 ## Sample Usage
 
 ```javascript
-var mapper = require('./lib/exif/PathExifMap.js');
+var pathExifMapper = require('path-exif-mapper').PathExifMap;
 
-mapper("/path/to/image.jpg", function (path, exifData) {
+pathExifMapper("/path/to/image.jpg", function (path, exifData) {
 
     console.log({
         path: path,
