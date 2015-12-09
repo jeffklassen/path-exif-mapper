@@ -1,6 +1,6 @@
 {
     "name": "path-exif-mapper",
-    "version": "0.2.0",
+    "version": "0.2.1",
     "description": "Maps an image path to its exif data",
     "main": "index.js",
     "scripts": {
