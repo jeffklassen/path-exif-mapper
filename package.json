@@ -1,6 +1,6 @@
 {
     "name": "path-exif-mapper",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "Maps an image path to its exif data",
     "main": "index.js",
     "scripts": {
@@ -21,6 +21,6 @@
     },
     "homepage": "https://github.com/jeffklassen/path-exif-mapper",
     "dependencies": {
-        "exif": "0.4.0"
+        "exif": "0.6.0"
     }
 }
